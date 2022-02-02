@@ -2,9 +2,9 @@
 
 Realizing even a simple self-driving car is a non-trivial project, when hardware is involved.
 
-This self-driving car project presents a fully software based solution, that is reproducible from the start, using the open source simulator [CoppeliaSim](https://www.coppeliarobotics.com/) (V-REP), the machine learning library FastAI/PyTorch, and custom Python code to automatically steer/drive the car, as well as collect training data, and actually train a deep learning model responsible for the steering.
+This self-driving car project presents a fully software based solution, that is reproducible and functional without prior training, using the open source simulator [CoppeliaSim](https://www.coppeliarobotics.com/) (V-REP), the machine learning library FastAI/PyTorch, and custom Python code to automatically steer/drive the car, as well as collect training data.
 
-While a pre-trained model is included, such that the car can drive right after setup, there is also code to retrain the deep neural network from scratch: a Juypter notebook (or alternatively a simple Python program) is provided to create and train the steering model, based on a CNN (convolutional neural network) classifier.
+While a pre-trained steering model is included, such that the car can drive autonomously right after installation, there is also code to retrain the deep neural network from scratch: a Juypter notebook (or alternatively a simple Python program) is provided to create and train the steering model, based on a CNN (convolutional neural network) classifier.
 
 It provides:
   - Simple noise free and high contrasting camera pictures
