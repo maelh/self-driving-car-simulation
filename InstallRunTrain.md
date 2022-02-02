@@ -26,7 +26,6 @@ enable/disable steering detection with the `d` key, engage/disengage autonomous 
 
 When autonomous driving mode is not engagend, training data is recorded as soon as the car drives in a forward, left-forward, or right-forward direction,
 but not when it drives backwards. Camera frames are stored in the `training/training_data/<current data and time>` directory. The sub directories are the labels of the
-image files they contain, e.g., `ForwardLeft` contains all the camera frames captured when driving in the left-forward direction, i.e., holding the left and forward keys
-pressed.
+image files they contain, e.g., `ForwardLeft` contains all the camera frames captured when driving in the left-forward direction, i.e., when holding the left and up arrow keys pressed.
 
 ## Train
