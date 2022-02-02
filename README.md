@@ -1,6 +1,6 @@
 # Simple reproducible self-driving car
 
-Realizing even a simple self-driving car is a non-trivial project, when hardware is involved.
+Realizing even a simple self-driving car is a non-trivial project, especially when hardware is involved.
 
 This self-driving car project presents a fully software based solution, that is reproducible and functional without prior training, using the open source simulator [CoppeliaSim](https://www.coppeliarobotics.com/) (V-REP), the machine learning library FastAI/PyTorch, and custom Python code to automatically steer/drive the car, as well as collect training data.
 
